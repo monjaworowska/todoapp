@@ -6,7 +6,7 @@ const App = ({ todos }) => {
   return (
     <div>
       <h1>To Do App Redux Template</h1>
-      <p>Test branch</p>
+      <p>Test branch 1</p>
       <form onSubmit={(e) => e.preventDefault()}>
         <input value={task} onChange={(e) => setTask(e.target.value)} />
         <button>Add</button>
